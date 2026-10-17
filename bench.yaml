@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/ericpearson1313/tt_grid_tie_load
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26b
+  slot: tt_um_60hz_load
+  project: 60 Hz Grid-Forming ASIC with Dump-Load Control
+  size: 1x2
+  kind: digital (Verilog)
+  commit: b9ae7fb49a58e887b5ce42c7aee64fcc61178681
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26b/tt_um_60hz_load
+  branch: tapeout/tinytapeout/ttgf26b/tt_um_60hz_load
+  page: https://app.tinytapeout.com/shuttles/ttgf26b
+generated: '2026-10-17T23:33:52Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26b/tt_um_60hz_load
+- upstream/main
